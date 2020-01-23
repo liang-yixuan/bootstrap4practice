@@ -62,7 +62,8 @@ body{
   width: 70%;
   height: auto;
   margin: 0 0 20% 20%;
-  transform: rotate(30deg);
+  /* transform: rotate(30deg); */
+
 }
 
 .feature-col {
