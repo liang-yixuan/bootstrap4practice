@@ -65,6 +65,7 @@ body{
 .feature-col {
   text-align: center;
   color: #75b79e;
+  padding-top: 10%;
 }
 
 .feature-col:hover {
