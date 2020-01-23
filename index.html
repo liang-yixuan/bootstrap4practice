@@ -14,7 +14,8 @@
   <!-- favicon -->
   <link rel="icon" href="img/favicon.ico">
   <!-- font -->
-  <link href="https://fonts.googleapis.com/css?family=Lemon|Montserrat|Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lemon|Montserrat:300,400,800&display=swap" rel="stylesheet">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"></script>
 
 
   <title>Avocado Fan Club</title>
@@ -24,14 +25,14 @@
 
 <body>
   <!-- title section -->
-  <section class="title">
+  <section id="title">
 
 
 
     <!-- nav bar | navbar class used here only! -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
       <!-- company logo As a link | use navbar-brand for the logo | -->
-      <a class="navbar-brand text-success" href="#">
+      <a class="navbar-brand text-warning" href="#">
         <img src="https://image.flaticon.com/icons/svg/472/472499.svg" width="30" height="30" class="d-inline-block align-top" alt="">
         Avocado FC
       </a>
@@ -45,44 +46,67 @@
         <!-- nav options:: | ml-auto: move to left | -->
         <ul class="navbar-nav mr-auto ">
           <li class="nav-item">
-            <a class="nav-link text-success" href="#">feature</a>
+            <a class="nav-link text-warning" href="#">Feature</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-success" href="#">example</a>
+            <a class="nav-link text-warning" href="#">Example</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-success" href="#">price</a>
+            <a class="nav-link text-warning" href="#">Price</a>
           </li>
         </ul>
 
-        <a class="btn btn-warning" href="">Join us</a>
+        <a class="btn btn-warning" href="">Member</a>
         <!-- <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn " type="submit">Search</button>
           </form> -->
       </div>
     </nav>
+
+    <!-- landing area -->
     <div class="container-fluid">
-      <!-- landing area -->
       <!-- the row class is a bootstrap class for grid! -->
       <div class="row">
-
-        <div class="col-lg-6">
-          <h1 class="slogan">Eat avocado everyday.</h1>
-          <div class="landing-btn">
-            <button type="button" class="btn btn-outline-success landing-btn">Free Trial</button>
-            <button type="button" class="btn btn-warning landing-btn">Join Club</button>
-          </div>
-
+        <div class="col-lg-6 landing-col">
+          <h1 class="slogan ">Eat avocado everyday.</h1>
+          <button type="button" class="btn btn-outline-success landing-btn">Free Trial</button>
+          <button type="button" class="btn btn-warning landing-btn">Join Club</button>
         </div>
-
-        <div class="col-lg-6">
-          <img class="landing-img" src="img/avocado-phone.jpg" alt="iphone-mockup" style="width: 100%; height: auto;">
+        <div class="col-lg-6 landing-col">
+          <img class="landing-img" src="img/avofc.png" alt="iphone-mockup">
         </div>
-
       </div>
     </div>
   </section>
+
+
+  <!-- Features -->
+  <section id="features">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-lg-4 feature-col">
+          <i class="fas fa-money-check-alt feature-icon"></i>
+          <h3 class="feature-point">Easy Access</h3>
+          <p>Anyone can join at afordable prices.</p>
+        </div>
+        <div class="col-lg-4 feature-col">
+          <i class="fas fa-bell feature-icon"></i>
+          <h3 class="feature-point">Great service</h3>
+          <p>We will remind you to eat util you ate one.</p>
+        </div>
+        <div class="col-lg-4 feature-col">
+          <i class="fas fa-check feature-icon"></i>
+          <h3 class="feature-point">Guaranteed to work.</h3>
+          <p>All you eat can be use to provide energy.</p>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
 
 
 
