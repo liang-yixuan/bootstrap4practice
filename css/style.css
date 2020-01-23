@@ -8,6 +8,7 @@ body{
 }
 .navbar {
   background-color: #a7e9af;
+  margin-bottom: 50px;
 }
 
 .navbar-brand {
