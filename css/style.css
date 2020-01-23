@@ -27,6 +27,9 @@ body{
   font-weight: 300;
 }
 
+.member-btn {
+  padding-left: 50px;
+}
 
 
 .container-fluid {
