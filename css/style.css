@@ -2,25 +2,35 @@ body{
   font-family: 'Ubuntu', sans-serif;
   font-family: 'Montserrat', sans-serif;
 }
-.slogan {
-  padding: 20% 10%;
-  font-family: 'Lemon', cursive;
-  font-size: 2.5rem;
-  text-align: left;
-  line-height: 1.5;
-}
-.landing-btn {
-  margin-left: 5%;
-  margin-bottom: 10%;
-}
+
 .title {
   background-color: #eef9bf;
 }
 .navbar {
   background-color: #a7e9af;
 }
+
+.navbar-brand {
+  font-family: 'Lemon', cursive;
+  font-weight: 900;
+}
+
 .container-fluid {
   padding:0 10%;
+}
+
+.slogan {
+  padding: 20% 10%;
+  color: green;
+  font-family: 'Lemon', cursive;
+  font-size: 2.5rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.landing-btn {
+  margin-left: 5%;
+  margin-bottom: 10%;
 }
 
 .landing-img {
